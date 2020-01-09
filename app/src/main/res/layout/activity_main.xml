@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Orientation">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btShowInput"
+        android:textSize="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Show Input"
+        tools:ignore="ButtonStyle,HardcodedText,SpUsage" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btShowData"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:text="Show Data"
+        tools:ignore="ButtonStyle,HardcodedText,SpUsage" />
+
+
+
+</LinearLayout>
